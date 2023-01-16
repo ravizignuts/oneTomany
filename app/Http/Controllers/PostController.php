@@ -18,7 +18,8 @@ class PostController extends Controller
     }
     public function showPost($id)
     {
+        //show post of particular author which id given
         $post = Author::find($id)->post;
-        return $post;
+        return view('authorpost',['posts'=>$post]);
     }
 }

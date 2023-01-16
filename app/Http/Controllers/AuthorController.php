@@ -24,8 +24,9 @@ class AuthorController extends Controller
     }
     public function showAuthor($id)
     {
-        $author = Post::find($id)->author;
-        return $author;
+        //show author of particular post !!!Error
+        $post = Post::find($id);
+        return $post->author;
     }
 
 }

@@ -8,6 +8,7 @@
             <th>Author</th>
             <th>Password</th>
             <th>Add Post</th>
+            <th>Show post</th>
         </tr>
     </thead>
     @foreach ($authors as $authors )
@@ -17,6 +18,8 @@
             <td>{{ $authors->username }}</td>
             <td>{{ $authors->password }}</td>
             <td><a href="postadd/{{ $authors->id }}" class="p-2 bg-primary text-white">POST</a></td>
+            <td><a href="showpost/{{ $authors->id }}" class="p-2 bg-primary text-white">SHOW POST</a></td>
+
             {{-- <td><a href="delete/{{ $data->id }}" class="p-2 bg-danger text-white">DELETE</a></td> --}}
         </tr>
     </tbody>

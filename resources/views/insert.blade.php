@@ -13,7 +13,4 @@
 </div>
 <button type="submit" class="btn btn-primary" name="submit">Submit</button>
 </form>
-{{-- @if (@isset($author)@endisset)
-    <h1>Data Inserted</h1>
-@endif --}}
 @endsection

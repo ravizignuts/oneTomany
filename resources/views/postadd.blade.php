@@ -1,6 +1,6 @@
 @extends('layout.master')
 @section('content')
-<form action="addpost" method="get" class="border w-50" style="margin-left: 20%; margin-top: 10%">
+<form action="/addPost" method="get" class="border w-50" style="margin-left: 20%; margin-top: 10%">
     @csrf
     <legend align="center">Add Post</legend>
     <div class="form-group">

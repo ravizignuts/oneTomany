@@ -25,7 +25,7 @@
     </tbody>
     @endforeach
 </table><br><hr><br>
-<h1 align="center">Posts</h1>
+<h1 align="center"> All Posts</h1>
 <table border="2" class="table">
     <thead>
         <tr>
